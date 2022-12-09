@@ -1,0 +1,226 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 400;
+}
+section{
+     width: 1140px;
+     margin: auto;
+     padding: 15px;
+}
+.botonPrimario{
+     background-color:#fff;
+     color:#000;
+     border-radius: 0;
+     padding: 8px 16px;
+     border: 0;
+     margin: 5px 0;
+     text-decoration: none;
+     font-size: 16px;
+     display: inline-block;
+}
+.botonSecundario{
+     background-color:#000;
+     color:#fff;
+     border-radius: 0;
+     padding: 8px 16px;
+     border: 0;
+     margin: 5px 0;
+     text-decoration: none;
+     font-size: 16px;
+     display: inline-block;
+}
+
+.tituloPagina{
+     background-image: url(../img/Fondo-de-rayas-pegadas.png);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     text-align: center;
+     width: 100%;
+     background-color: #000;
+}
+.tituloPagina h1{
+     font-size: 40px;
+     font-weight: 700;
+     color: #fff;
+     padding: 50px 0;
+}
+/*Encabezado*/
+.navbar{
+     background-color: #000;
+     padding: 15px;
+     text-align: center;
+}
+.nav-link{
+     color:#fff;
+     text-decoration: none;
+     
+}
+.nav-link:hover{
+     color:#fff;
+}
+a .logo-img{
+     width: 100px;
+}
+/*Hero*/
+.hero{
+     background-image: url(../img/fondo_inicio.jpg);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+     padding-top: 250px;
+     padding-bottom: 250px;
+     margin: auto;
+}
+.hero .hero__contenido{
+     width: 1140px;
+     margin: auto;
+     text-align: left;
+}
+.hero__titulo{
+     color:#fff;
+     font-weight: 700;
+     font-size: 40px;     
+}
+/*Historia*/
+.historia__contenido{
+     text-align: left;
+}
+.historia__contenido img{
+     text-align: center;
+     width: 250px;
+     margin: 15px;
+}
+/*Galeria*/
+.galeria__contenido{
+     text-align: center;
+}
+.galeria__contenido img{
+     width: 20%;
+     padding: 5px;
+}
+/*Noticias*/
+.noticias__contenido{
+     text-align: center;
+}
+.item__noticia{
+     width: 20%;
+     padding: 15px;
+     border: 2px solid#f1f1f1;
+     
+     display: inline-block;
+}
+.item__noticia .foto__noticia{
+     width: 100%;
+}
+.item__noticia .info__noticia{
+     width: 100%;
+}
+/*Equipo*/
+.equipo__contenido{
+     text-align: center;
+}
+.equipo__contenido .item__equipo{
+     width: 20%;
+     text-align: left;
+     border: 2px solid #eeeeee;
+     padding: 10px;
+     margin-bottom: 10px;
+     display: inline-block;
+}
+.item__equipo .foto__equipo{
+     width: 100%;
+}
+/*Contacto*/
+.contacto{
+     background-color: #fff;
+}
+.contacto__formulario{
+     width: 50%;
+     background-color: #fff;
+     padding: 25px 50px;
+     margin: auto;
+}
+.contacto__formulario form{
+     background-color: #fff;
+}
+.contacto__formulario form label{
+     display: block;
+     background-color: #fff;
+}
+.contacto__formulario form input{
+     display: block;
+     background-color: #fff;
+     width: 100%;
+     border: 1px solid #c4c4c4;
+     padding: 8px 15px;
+     margin-bottom: 10px;
+}
+.contacto__formulario form textarea{
+     display: block;
+     background-color: #fff;
+     width: 100%;
+}
+.contacto__informacion{
+     width: 50%;
+}
+/*Footer*/
+footer{
+     background-color: #000;
+     padding: 25px 15px;
+}
+footer img{
+     width: 150px;
+}
+.footer__caja{
+     margin: 25px 0;
+}
+footer .footer__caja__lista{
+     list-style: none;
+     padding-left: 0;
+}
+footer .footer__caja .footer__caja__titulo{
+     color:#fff;
+     font-weight: 700;
+     font-size: 20px;
+     margin-bottom: 10px;
+     
+}
+footer .footer__caja .footer__caja__lista li{
+     display: inline;
+     padding: 8px 15px;
+}
+footer .footer__caja .footer__caja__lista li a{
+     color:#fff;
+     font-weight: 400;
+     font-size: 18px;
+     text-decoration: none;
+     padding: 2px;
+}
+@media (max-width: 576px) {
+     .hero{
+          background-position: center right;
+     }
+
+     .hero__titulo{
+          color:#fff;
+          font-weight: 700;
+          font-size: 20px;     
+     }
+     .contacto__formulario{
+          width: 100%;
+          background-color: #fff;
+          padding: 25px 15px;
+          margin: auto;
+     }
+     footer{
+          text-align: center;
+     }
+     footer ul{
+          text-align: left;
+     }
+ }
