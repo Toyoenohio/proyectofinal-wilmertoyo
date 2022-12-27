@@ -22,6 +22,15 @@
           color:$white;
      }
 }
+.btn{
+     font-weight: 600;
+}
+.btn-light:hover{
+     background-color: $amarillo;
+     color: $black;
+     border-color: $amarillo;
+     transition: 0.3s all;
+}
 .tituloPagina{
      background-image: url(../img/Fondo-de-rayas-pegadas.png);
      background-position: center center;
@@ -52,4 +61,10 @@
 /*Logo encabezado*/
 a .logo-img{
      width: 100px;
+}
+.contenido{
+     text-align: left;
+     &__historia{
+          text-align: center;
+     }
 }

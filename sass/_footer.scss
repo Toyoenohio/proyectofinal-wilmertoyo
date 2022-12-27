@@ -1,0 +1,27 @@
+footer{
+     background-color: $black;
+     padding: 25px 15px;
+     h5{
+          color:$white;
+          font-weight: 700;
+     }
+     img{
+          width: 150px;
+     }
+     .footer__caja{
+          margin: 25px 0;
+          &__lista{
+               list-style: none;
+               padding-left: 0;
+               a{
+                    color:$white;
+                    text-decoration: none;
+                    &:hover{
+                         color:$amarillo;
+                         text-decoration: none;
+                    }
+               }
+
+          }
+     }
+}
