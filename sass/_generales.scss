@@ -1,0 +1,55 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 400;
+}
+.boton{
+     border-radius: 0;
+     padding: 8px 16px;
+     border:0;
+     margin: 5px 0;
+     text-decoration: none;
+     font-size: 16px;
+     display: inline-block;
+     &Primario{
+          background-color: $white;
+          color: $black;
+     }
+     &Secundario{
+          background-color: $black;
+          color:$white;
+     }
+}
+.tituloPagina{
+     background-image: url(../img/Fondo-de-rayas-pegadas.png);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     text-align: center;
+     width: 100%;
+     background-color: $black;
+     
+     h1{
+          font-size: 40px;
+          font-weight: 700;
+          color: $white;
+          padding: 50px 0;
+          animation: titulos 1s;
+     }
+}
+@keyframes titulos{
+     0%{ 
+          opacity: 0;
+          transform:translateY(50px) ;
+     }
+     100%{
+          opacity: 1;
+          transform:translateY(0) ;
+     }
+}
+/*Logo encabezado*/
+a .logo-img{
+     width: 100px;
+}

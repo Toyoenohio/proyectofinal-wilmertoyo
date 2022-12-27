@@ -1,0 +1,20 @@
+.hero{
+     background-image: url(../img/fondo_inicio.jpg);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+     padding-top: 250px;
+     padding-bottom: 250px;
+     margin: auto;
+     &__contenido{
+          width: 1140px;
+          margin: auto;
+          text-align: left;
+     }
+     &__titulo{
+          color:#fff;
+          font-weight: 700;
+          font-size: 40px; 
+     }
+}
